@@ -52,14 +52,14 @@ export function useGameLogic() {
       ? directionQueueRef.current[directionQueueRef.current.length - 1]
       : direction
 
-    // Prevent reversing into itself
-    if (currentDirection.x === -newDirection.x && currentDirection.y === -newDirection.y) {
+    // Prevent reversing into itself only if snake has more than 1 segment
+    if (snake.length > 1 && currentDirection.x === -newDirection.x && currentDirection.y === -newDirection.y) {
       return
     }
 
     // Queue direction change
     directionQueueRef.current.push(newDirection)
-  }, [direction, gameState])
+  }, [direction, gameState, snake.length])
 
   const gameLoop = useCallback(() => {
     if (gameState !== 'playing') return

@@ -15,14 +15,14 @@ export default function Home() {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://classic-snake-game--davidagustin.github.app/" />
+        <meta property="og:url" content="https://classic-snake-game-phi.vercel.app/" />
         <meta property="og:title" content="Classic Snake Game" />
         <meta property="og:description" content="A modern, responsive implementation of the classic Snake game built with React, TypeScript, and Tailwind CSS" />
         <meta property="og:image" content="/og-image.png" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://classic-snake-game--davidagustin.github.app/" />
+        <meta property="twitter:url" content="https://classic-snake-game-phi.vercel.app/" />
         <meta property="twitter:title" content="Classic Snake Game" />
         <meta property="twitter:description" content="A modern, responsive implementation of the classic Snake game built with React, TypeScript, and Tailwind CSS" />
         <meta property="twitter:image" content="/og-image.png" />

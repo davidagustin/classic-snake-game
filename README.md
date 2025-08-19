@@ -9,7 +9,7 @@
 
 **A modern, responsive implementation of the classic Snake game built with cutting-edge web technologies**
 
-[🎮 **Play Live Demo**](https://classic-snake-game--davidagustin.github.app/) | [📖 **Documentation**](#documentation) | [🚀 **Quick Start**](#quick-start)
+[🎮 **Play Live Demo**](https://classic-snake-game-phi.vercel.app/) | [📖 **Documentation**](#documentation) | [🚀 **Quick Start**](#quick-start)
 
 </div>
 
@@ -33,7 +33,7 @@
 
 <div align="center">
 
-**[🎯 Try the Game Now](https://classic-snake-game--davidagustin.github.app/)**
+**[🎯 Try the Game Now](https://classic-snake-game-phi.vercel.app/)**
 
 *Experience smooth gameplay, responsive controls, and persistent high scores*
 
@@ -313,7 +313,7 @@ I welcome contributions! Here's how you can help:
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/davidagustin)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://davidagustin.github.io/)
 
-**🎮 [Play the Game](https://classic-snake-game--davidagustin.github.app/)**
+**🎮 [Play the Game](https://classic-snake-game-phi.vercel.app/)**
 
 </div>
 
