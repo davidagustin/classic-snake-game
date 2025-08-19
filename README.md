@@ -121,10 +121,15 @@ npm run build
 
 ### **Development Commands**
 ```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run preview  # Preview production build
+npm run dev      # Start development server (Vite)
+npm run build    # Build for production (Vite)
+npm run preview  # Preview production build (Vite)
 npm run lint     # Run ESLint
+
+# Next.js Commands (for Vercel deployment)
+npm run build:next  # Build with Next.js
+npm run start       # Start Next.js production server
+npm run export      # Export static files
 ```
 
 ---
@@ -311,6 +316,46 @@ I welcome contributions! Here's how you can help:
 **🎮 [Play the Game](https://classic-snake-game--davidagustin.github.app/)**
 
 </div>
+
+---
+
+## 🚀 **Deployment**
+
+### **Vercel Deployment**
+This project is configured for easy deployment on Vercel:
+
+1. **Connect to Vercel**:
+   - Push your code to GitHub
+   - Connect your repository to Vercel
+   - Vercel will automatically detect the Next.js configuration
+
+2. **Automatic Deployment**:
+   - Every push to `main` branch triggers automatic deployment
+   - Preview deployments for pull requests
+   - Zero-config deployment with optimized build settings
+
+3. **Environment Variables** (if needed):
+   ```bash
+   # Add in Vercel dashboard
+   CUSTOM_KEY=your_value_here
+   ```
+
+### **Manual Deployment**
+```bash
+# Build for production
+npm run build:next
+
+# Start production server
+npm run start
+
+# Export static files (for static hosting)
+npm run export
+```
+
+### **Other Platforms**
+- **Netlify**: Use `npm run export` and deploy the `out` directory
+- **GitHub Pages**: Use `npm run export` and deploy the `out` directory
+- **AWS S3**: Use `npm run export` and upload the `out` directory
 
 ---
 

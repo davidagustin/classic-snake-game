@@ -1,6 +1,6 @@
 import { Direction, GameState } from '@/types/game'
 import { Button } from '@/components/ui/button'
-import { Play, Pause, ArrowUp, ArrowDown, ArrowLeft, ArrowRight, RotateCcw } from '@phosphor-icons/react'
+import { Play, Pause, ArrowUp, ArrowDown, ArrowLeft, ArrowRight, ArrowClockwise } from '@phosphor-icons/react'
 import { useIsMobile } from '@/hooks/use-mobile'
 
 interface GameControlsProps {
@@ -38,7 +38,7 @@ export function GameControls({
         )}
         
         <Button onClick={resetGame} variant="outline" className="gap-2">
-          <RotateCcw size={16} />
+          <ArrowClockwise size={16} />
           Reset
         </Button>
       </div>

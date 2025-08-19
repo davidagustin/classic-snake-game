@@ -11,7 +11,7 @@ export function useGameLogic() {
   const [highScoreStr, setHighScoreStr] = useKV('snake-high-score', '0')
   const highScore = highScoreStr ? parseInt(highScoreStr, 10) : 0
   
-  const gameLoopRef = useRef<NodeJS.Timeout>()
+  const gameLoopRef = useRef<NodeJS.Timeout | undefined>(undefined)
   const directionQueueRef = useRef<Direction[]>([])
 
   const generateFood = useCallback((currentSnake: Position[]): Position => {
