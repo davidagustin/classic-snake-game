@@ -17,8 +17,7 @@ function SnakeGame() {
     resetGame,
     startGame,
     pauseGame,
-    changeDirection,
-    DIRECTIONS
+    changeDirection
   } = useGameLogic()
 
   // Set up keyboard controls
