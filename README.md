@@ -106,7 +106,7 @@
 ### **Installation**
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/classic-snake-game.git
+git clone https://github.com/davidagustin/classic-snake-game.git
 cd classic-snake-game
 
 # Install dependencies
@@ -304,9 +304,9 @@ I welcome contributions! Here's how you can help:
 
 **David Agustin** - Full Stack Developer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://yourportfolio.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/davidsyagustin/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/davidagustin)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://davidagustin.github.io/)
 
 **🎮 [Play the Game](https://classic-snake-game--davidagustin.github.app/) | 📧 [Get in Touch](mailto:your.email@example.com)**
 
