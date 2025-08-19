@@ -308,7 +308,7 @@ I welcome contributions! Here's how you can help:
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/davidagustin)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://davidagustin.github.io/)
 
-**🎮 [Play the Game](https://classic-snake-game--davidagustin.github.app/) | 📧 [Get in Touch](mailto:your.email@example.com)**
+**🎮 [Play the Game](https://classic-snake-game--davidagustin.github.app/)**
 
 </div>
 
